@@ -9,7 +9,7 @@ Serviço Odoo: A aplicação web principal do Odoo.
 Serviço PostgreSQL: Um banco de dados dedicado que roda localmente.
 
 
-**Características**
+**Características:**
 
 - Implantação Única: Um único arquivo hcl gerencia tanto a aplicação quanto o banco de dados.
 
@@ -19,15 +19,16 @@ Serviço PostgreSQL: Um banco de dados dedicado que roda localmente.
 
 - Configuração via Variáveis: Facilmente configurável usando variáveis do Nomad.
 
-**Pré-requisitos**
+**Pré-requisitos:**
+
 Antes de executar este job, você precisará de:
 
-Um **cluster Nomad** funcional.
+- Um **cluster Nomad** funcional.
 
-A **CLI do Nomad** instalada e configurada para se comunicar com o cluster.
+- A **CLI do Nomad** instalada e configurada para se comunicar com o cluster.
 
-**Nomad conectado ao Consul**
+- **Nomad conectado ao Consul**
 
-O **driver Docker** habilitado nos seus clientes Nomad.
+- O **driver Docker** habilitado nos seus clientes Nomad.
 
-**Volumes persistentes** configurados nos nós clientes para persistência de dados.
+- **Volumes persistentes** configurados nos nós clientes para persistência de dados.
