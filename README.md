@@ -9,16 +9,17 @@ Serviço Odoo: A aplicação web principal do Odoo.
 Serviço PostgreSQL: Um banco de dados dedicado que roda localmente.
 
 
-- Características
-Implantação Única: Um único arquivo hcl gerencia tanto a aplicação quanto o banco de dados.
+**Características**
 
-Co-localização: O Odoo e o PostgreSQL rodam na mesma máquina cliente do Nomad.
+- Implantação Única: Um único arquivo hcl gerencia tanto a aplicação quanto o banco de dados.
 
-Persistência de Dados: Configurado para usar volumes do Nomad para persistir os dados do PostgreSQL e os addons do Odoo.
+- Co-localização: O Odoo e o PostgreSQL rodam na mesma máquina cliente do Nomad.
 
-Configuração via Variáveis: Facilmente configurável usando variáveis do Nomad.
+- Persistência de Dados: Configurado para usar volumes do Nomad para persistir os dados do PostgreSQL e os addons do Odoo.
 
-Pré-requisitos
+- Configuração via Variáveis: Facilmente configurável usando variáveis do Nomad.
+
+**Pré-requisitos**
 Antes de executar este job, você precisará de:
 
 Um **cluster Nomad** funcional.
